@@ -1,0 +1,175 @@
+body {
+  background-color: #3a4a58;
+  color: #8c8c8c;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px;
+  margin: auto;
+  max-width: 640px;
+}
+
+body * { 
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  font-weight: 400;
+  padding: 15px;
+  margin: 0px;
+}
+
+.coffee1 {
+  background-image: url(../img/chilling-cafe-01.jpg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  height: 425px;
+}
+
+.title00  {
+  color: #996633;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.whitebackground {
+  background-color: white;
+  padding-top: 25px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+.shadow {
+  box-shadow: 0 0px 15px rgb(0 0 0 / 40%);
+}
+
+.header00 {
+    background-color: #8c8c8c !important;
+}
+
+.header00 th {
+    color: white;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 70px;
+}
+
+.div1, .div2, .div3  {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+}
+
+.div1 {
+    background-image: url(/img/chilling-cafe-11.jpg);
+}
+
+.div2 {
+    background-image: url(/img/chilling-cafe-12.jpg);
+}
+
+.div3 {
+    background-image: url(/img/chilling-cafe-13.jpg);
+}
+
+hr {
+    max-width: 60%;
+}
+
+#about {
+    margin: auto;
+    max-width: 490px;
+    padding: 10px;
+}
+
+.talk {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.email {
+  color: #333333;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: #8c8c8c;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  height: 15px;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.socialicons {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pagefooter {
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
