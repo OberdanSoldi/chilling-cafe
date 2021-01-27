@@ -26,8 +26,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 640px;
-  height: 425px;
+  width: 100%;
 }
 
 .title00  {
@@ -77,12 +76,11 @@ tr:nth-child(odd) {
     justify-content: space-evenly;
     align-items: center;
     padding: 25px;
-    padding-bottom: 70px;
+    flex-flow: wrap;
 }
 
 .div1, .div2, .div3  {
     width: 180px;
-    height: 180px;
     text-align: center;
 }
 
